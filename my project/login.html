@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> earn and excel </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+         margin: 0;
+         display: flex;
+         flex-direction: column;
+         height: 100%;
+
+
+       }
+
+       main {
+
+           flex-grow: 1;
+       }
+       header {
+
+           font-size: 40px;
+           text-align: center;
+           background-color: blue;
+           color: white;
+           padding: 15px;
+           font-family: 'pacifico', cursive;
+           width: 1350;
+       }
+
+       .loging-box {
+
+           border: 1px solid grey;
+           width: 400px;
+           padding: 20px;
+           text-align: center;
+           background: rgba(255, 255, 255, 0.7);
+           border-radius: 5px;
+           
+
+       }
+
+     .loging-box {
+           max-width: 500px;
+
+    }
+
+       .login-box-container {
+
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 1000px;
+           background: url("backgroungimage.jpg");
+           background-position: center;
+           width: 1350px;
+           margin: auto;
+           background-size: cover;
+
+       }
+
+       input[type=text] {
+              padding: 10px;
+              border-radius: 5px;
+              border: 1px solid grey;
+              width: 80%;
+              margin-bottom: 10px;
+
+       }
+
+       .primary-button {
+         color: white;
+         background-color: blue;
+         padding: 10px 20px;
+
+       }
+
+       .login-button {
+          margin: auto;
+          display: block;
+
+       }
+
+       .loging-box h1 {
+        text-align: center;
+       }
+
+       .login-button a {
+         font-weight: bold;
+
+       }
+      
+       </style>
+    </head>
+<body>
+
+<header>
+
+    <div class="logo"> chatter </div>
+</header>
+<main>
+    
+    <div class="login-box-container">
+      <div class="loging-box">
+            <form>
+            <h1>Login</h1>
+            <input type="text" placeholder="username"> 
+            <input type="text" placeholder="password">
+            <button id="submit"class="primary-button login-button" type="submit"> Login </button>
+            </form><br>
+        <a href="register.html"> Register now </a>
+      </div>
+     </div>  
+    </main>
+  </body>
+</html>
