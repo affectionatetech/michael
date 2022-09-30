@@ -1,0 +1,123 @@
+html {
+
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+
+  }
+
+  main {
+
+      flex-grow: 1;
+      background: url("backgroungimage.jpg");
+      background-position: center;
+      background-size: cover;
+  }
+  
+  header {
+
+      font-size: 30px;
+      text-align: center;
+      background-color: blue;
+      color: white;
+      padding: 5px;
+      font-family: 'pacifico', cursive;
+      
+  }
+
+  .loging-box {
+
+      border: 1px solid grey;
+      width: 400px;
+      padding: 20px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 10px;
+      box-sizing: border-box;
+      
+
+  }
+
+.loging-box {
+      max-width: 500px;
+
+}
+
+
+
+  .login-box-container {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      
+
+  }
+
+  input[type=text], input[type=password], input[type=email] {
+         padding: 10px;
+         border-radius: 5px;
+         border: 1px solid grey;
+         width: 80%;
+         margin-bottom: 10px;
+
+  }
+
+  .primary-button {
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+
+  }
+
+  .login-button {
+     margin: auto;
+     display: block;
+
+  }
+
+  .loging-box h1 {
+   text-align: center;
+  }
+
+  .login-button a {
+    font-weight: bold;
+
+  }
+
+  /* Home */
+  .home-main {
+
+    justify-content: center;
+    display: flex;
+  }
+  
+  
+  .timeline-container {
+      background-color: white;
+      width: 100%;
+      max-width: 800px;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+  }
+
+  .chatters-feed {
+      flex-grow: 4;
+      border-right: 1px solid lightgrey;
+
+  }
+
+
+  .recent-users-feed {
+     flex-grow: 1;
+     padding-left: 20px;
+
+  }
