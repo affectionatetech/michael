@@ -121,3 +121,24 @@ body {
      padding-left: 20px;
 
   }
+
+  .primary-button {
+    background-color: blue;
+    border: .5px solid none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 8px;
+    box-shadow: 0 0 30px 0  blue,
+                0 0 30px 0 blue,
+                0 0 10px 0 blue;
+
+  }
+
+  .dodo {
+
+    flex-grow: none;
+  }
+
+  /* chatter */
+
+  .chatters 
