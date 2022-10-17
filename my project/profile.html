@@ -12,7 +12,7 @@
     </head>
 <body>
 
-<header>
+  <header>
 
     <div class="logo"> chatter </div>
     
@@ -24,45 +24,37 @@
       <a href="profile.html">
         <i class="fas fa-user"></i>
       </a>
-      <a href="profile.html" class="new-button">Logout</a>
+      <a href="#" class="new-button">Logout</a>
     </div>
     
 </header>
-<main class="home-main">
-  <div class="timeline-container">
-    <div class="chatters-feed">
-      <h1>Chatters</h1>
-      <div class="chatter">
-        <div class="profile-pic">
-         <i class="fas fa-user-circle"></i>
-        </div>
-          <div class="message">
-        <p>Hello, this is my first chatter!</p>
-        <p class="metadata"> Posted by Affection on 10/10/2020 </p>
-        </div>
+<main class="profile-main">
+  <div class="profile-view">
+  <i class="fas fa-user-circle user-profile-pic" aria-hidden="true"></i>
+    <a href="#" class="secondary-button">Follow</a> 
+  <div class="chatters-feed">
+     <div class="chatter">
+      <div class="profile-pic">
+       <i class="fas fa-user-circle" aria-hidden="true"></i>
+      </div>
+        <div class="message">
+      <p>Hello, this is my first chatter!</p>
+      <p class="metadata"> Posted by Affection on 10/10/2020 </p>
+      
+            </div>
          </div>
          <div class="chatter">
           <div class="profile-pic">
-           <i class="fas fa-user-circle"></i>
+           <i class="fas fa-user-circle" aria-hidden="true"></i>
           </div>
             <div class="message">
           <p>Hello, this is my first chatter!</p>
           <p class="metadata"> Posted by Affection on 10/10/2020 </p>
-          </div>
-           </div>
-        </div>
-           <div class="recent-users-feed">
-          <h2>Recent users</h2>
-          <div class="new-user">
-            <div class="profile-pic">  
-              <i class="fas fa-user-circle"></i> 
-            </div>
-            <div class="name">
-                 <p>Affection</p>
-                 <button id="submit"class="secondary-button login-button" type="submit"> Follow </button>
-            </div>
-         </div>
+          
+                </div>
+             </div>
       </div>
-    </main>
-  </body>
+    </div>
+  </main>
+</body>
 </html>

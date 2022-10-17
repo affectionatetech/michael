@@ -22,19 +22,34 @@ body {
   }
   
   header {
-
-      font-size: 30px;
       text-align: center;
       background-color: blue;
-      color: white;
-      padding: 5px;
-      font-family: 'pacifico', cursive;
+      padding: 15px;
+      min-height: 40px;
+      
+  }
+
+  header .logo{
+    font-size: 30px;
+    font-family: 'pacifico', cursive; 
+    color: white;
+    position: absolute;
+    left: calc(50% - 35px);
+  }
+
+  .header-actions {
+    float: right;
+    margin-top: 12px;
   }
 
   header a {
     color: white;
     text-decoration:none;
   }
+
+   .header-actions .fas {
+    margin-right: 10px;
+   }
 
   .loging-box {
 
@@ -139,15 +154,38 @@ body {
 
   }
 
+  .secondary-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    text-decoration: none;
+  }
+
+  .new-button {
+    background-color: #400102;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+
   .dodo {
 
     flex-grow: none;
   }
 
+ 
+
+ 
+
   /* chatter */
 
   .chatter {
     display: flex;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+
   }
 
   .chatter .profile-pic {
@@ -163,6 +201,12 @@ body {
   .chatter .metadata {
   font-size: 14px;
   color: grey;
+  }
+
+  .chatter:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
 /* new users */
@@ -183,12 +227,8 @@ body {
   margin-top: 0px 0px 5px opx;
  }
 
- .secondary-button {
-  background-color: blue;
-  color: white;
-  padding: 10px 20px 10px 20px;
-  border: none;
-}
+
+
 
 .form-actions {
   display: flex;
@@ -217,17 +257,47 @@ body {
  
 }
 
-.new-button {
+/* profile page */
+
+/*.profile-main {
+  width: 500px;
+  margin: auto;
+} */
+
+.profile-main .user-profile-pic {
+  font-size: 200px;
   color: white;
-  background-color: blue;
-  border: 2px solid white;
-  border-radius: 40px;
-  padding: 10px;  
+  margin: 30px 0;
 }
 
-header button {
-  float: right;
-}
+.profile-main .chatters-feed {
+  background-color: white;
+  text-align: left;
+  padding: 20px;
+  min-width: 500px;
+
+  }
+
+ .profile-view {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .profile-view .secondary-button {
+  display: block;
+  margin-bottom: 20px;
+ }
+
+
+
+
+
 
 
 
